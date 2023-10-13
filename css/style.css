@@ -1,5 +1,27 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  padding: 1rem;
+}
+
+.mobile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  min-width: 320px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: aliceblue;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
