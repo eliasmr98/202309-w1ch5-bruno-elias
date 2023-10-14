@@ -8,7 +8,7 @@ body {
   background-color: #f8f9ff;
 }
 
-.header1 {
+.page1-header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,14 +30,14 @@ h1 {
   font-family: mulish;
 }
 
-.main-container1 {
+.page1-container {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-block-start: 3rem;
 }
 
-h2 {
+.page1-h2 {
   font-family: Poppins;
   font-size: 38px;
   font-weight: 700;
@@ -46,8 +46,7 @@ h2 {
   text-align: center;
 }
 
-.text-under1,
-.text-under2 {
+.page1-text-under-h2 {
   font-family: mulish;
   margin: 2.5rem;
   margin-block-start: 1.5rem;
@@ -58,7 +57,7 @@ h2 {
   font-size: 1rem;
 }
 
-.get-started {
+.page1-get-started {
   display: flex;
   background-color: #009379;
   border: 1px solid transparent;
@@ -69,7 +68,7 @@ h2 {
   gap: 10px;
   margin-block-end: 3rem;
 }
-.get-started p {
+.page1-get-started p {
   color: white;
   font-family: poppins;
 }
