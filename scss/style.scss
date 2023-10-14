@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background-color: #f8f9ff;
 }
@@ -45,12 +46,14 @@ h1 {
   text-align: center;
 }
 
-.page1-text-under-h2 {
+
+.paige1-text-under-h2 {
   font-family: mulish;
   margin: 2.5rem;
   margin-block-start: 1.5rem;
   text-align: center;
 }
+
 .p-page2 {
   font-size: 1rem;
 }
@@ -65,11 +68,14 @@ h1 {
   padding-block: 1rem;
   gap: 10px;
   margin-block-end: 3rem;
+  cursor: pointer;
+  
   p {
     color: white;
     font-family: poppins;
   }
 }
+
 .animal1 {
   display: flex;
   justify-content: center;
@@ -110,3 +116,98 @@ h1 {
   font-weight: 400;
   line-height: 150%;
 }
+
+.page1-container-img {
+  margin-block-end: 60px;
+}
+
+//////section1end//section1end//section1end//section1end//section1end//////
+
+.our-features {
+  padding: 60px;
+  h2 {
+    font-family: poppins;
+    font-size: 34px;
+  }
+  p {
+    font-family: mulish;
+    font-size: 18px;
+  }
+}
+
+.our-features-h2,
+.our-features-p {
+  text-align: center;
+}
+
+.our-features-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-block-end: 30px;
+}
+
+.our-features-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-block-end: 3rem;
+  div span {
+    font-family: mulish;
+    font-size: 18px;
+  }
+}
+
+.fast-building-container {
+  display: flex;
+  padding: 1rem;
+  background-color: white;
+  gap: 1rem;
+  border-radius: 20px;
+  align-items: center;
+  padding-inline-end: 2rem;
+}
+
+.easy-to-edit-container {
+  display: flex;
+  padding: 1rem;
+  background-color: white;
+  gap: 1rem;
+  border-radius: 20px;
+  align-items: center;
+  padding-inline-end: 2rem;
+}
+
+.responsiveness-container {
+  display: flex;
+  padding: 1rem;
+  background-color: white;
+  gap: 1rem;
+  border-radius: 20px;
+  align-items: center;
+  padding-inline-end: 2rem;
+}
+
+.no-code-needed-container {
+  display: flex;
+  padding: 1rem;
+  background-color: white;
+  gap: 1rem;
+  border-radius: 20px;
+  align-items: center;
+  padding-inline-end: 2rem;
+}
+
+.img-container {
+  padding: 0.6rem;
+  background-color: #e5f4f2;
+  border-radius: 12.195px;
+}
+
+.our-features-image {
+  display: flex;
+  justify-content: center;
+  margin-block: 60px;
+}
+
+//////section2end//section2end//section2end//section2end//section2end//////
