@@ -70,16 +70,22 @@ body {
   }
 }
 
-.our-features {
-  padding: 60px;
-}
-.our-features-h2 {
-  font-family: Poppins;
-  font-size: 38px;
+.container-img {
+  margin-block-end: 60px;
 }
 
-.our-features p {
-  font-family: mulish;
+//////section1end//section1end//section1end//section1end//section1end//////
+
+.our-features {
+  padding: 60px;
+  h2 {
+    font-family: poppins;
+    font-size: 34px;
+  }
+  p {
+    font-family: mulish;
+    font-size: 18px;
+  }
 }
 
 .our-features-h2,
@@ -87,15 +93,11 @@ body {
   text-align: center;
 }
 
-.our-features-text {
-  font-family: mulish;
-}
-
 .our-features-text-container {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-block-end: 3rem;
+  margin-block-end: 30px;
 }
 
 .our-features-menu {
@@ -103,6 +105,10 @@ body {
   flex-direction: column;
   gap: 1rem;
   margin-block-end: 3rem;
+  div span {
+    font-family: mulish;
+    font-size: 18px;
+  }
 }
 
 .fast-building-container {
@@ -110,7 +116,9 @@ body {
   padding: 1rem;
   background-color: white;
   gap: 1rem;
-  border-radius: 10px;
+  border-radius: 20px;
+  align-items: center;
+  padding-inline-end: 2rem;
 }
 
 .easy-to-edit-container {
@@ -118,7 +126,9 @@ body {
   padding: 1rem;
   background-color: white;
   gap: 1rem;
-  border-radius: 10px;
+  border-radius: 20px;
+  align-items: center;
+  padding-inline-end: 2rem;
 }
 
 .responsiveness-container {
@@ -126,7 +136,9 @@ body {
   padding: 1rem;
   background-color: white;
   gap: 1rem;
-  border-radius: 10px;
+  border-radius: 20px;
+  align-items: center;
+  padding-inline-end: 2rem;
 }
 
 .no-code-needed-container {
@@ -134,11 +146,19 @@ body {
   padding: 1rem;
   background-color: white;
   gap: 1rem;
-  border-radius: 10px;
+  border-radius: 20px;
+  align-items: center;
+  padding-inline-end: 2rem;
 }
 
-// align-items: center;
-// gap: 1rem;
-// padding: 20px;
-// padding-inline-start: 2rem;
-// background-color: white;
+.img-container {
+  padding: 0.6rem;
+  background-color: #e5f4f2;
+  border-radius: 12.195px;
+}
+
+.our-features-image {
+  display: flex;
+  justify-content: center;
+  margin-block: 60px;
+}
