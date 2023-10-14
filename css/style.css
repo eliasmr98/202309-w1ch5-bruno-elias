@@ -8,7 +8,7 @@ body {
   background-color: #f8f9ff;
 }
 
-.index-header {
+.page1-header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ body {
   padding-inline: 0;
 }
 
-.index-h1 {
+h1 {
   font-family: Poppins;
   font-size: 21px;
   font-weight: 700;
@@ -30,14 +30,14 @@ body {
   font-family: mulish;
 }
 
-.main-container {
+.page1-container {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-block-start: 3rem;
 }
 
-.index-h2 {
+.page1-h2 {
   font-family: Poppins;
   font-size: 38px;
   font-weight: 700;
@@ -46,14 +46,14 @@ body {
   text-align: center;
 }
 
-.text-under-h2 {
+.paige1-text-under-h2 {
   font-family: mulish;
   margin: 2.5rem;
   margin-block-start: 1.5rem;
   text-align: center;
 }
 
-.get-started {
+.page1-get-started {
   display: flex;
   background-color: #009379;
   border: 1px solid transparent;
@@ -65,12 +65,12 @@ body {
   margin-block-end: 3rem;
   cursor: pointer;
 }
-.get-started p {
+.page1-get-started p {
   color: white;
   font-family: poppins;
 }
 
-.container-img {
+.page1-container-img {
   margin-block-end: 60px;
 }
 
