@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-header {
+.index-header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,7 @@ header {
   padding-inline: 0;
 }
 
-h1 {
+.index-h1 {
   font-family: Poppins;
   font-size: 21px;
   font-weight: 700;
@@ -33,7 +33,7 @@ h1 {
   margin-block-start: 3rem;
 }
 
-h2 {
+.index-h2 {
   font-family: Poppins;
   font-size: 38px;
   font-weight: 700;
@@ -59,10 +59,25 @@ h2 {
   padding-block: 1rem;
   gap: 10px;
   margin-block-end: 3rem;
+  cursor: pointer;
 }
 .get-started p {
   color: white;
   font-family: poppins;
+}
+
+.our-features-h2 {
+  font-family: Poppins;
+  font-size: 38px;
+}
+
+.our-features p {
+  font-family: mulish;
+}
+
+.our-features-h2,
+.our-features-p {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
