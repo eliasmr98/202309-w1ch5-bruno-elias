@@ -46,7 +46,6 @@ h1 {
   text-align: center;
 }
 
-
 .paige1-text-under-h2 {
   font-family: mulish;
   margin: 2.5rem;
@@ -69,7 +68,7 @@ h1 {
   gap: 10px;
   margin-block-end: 3rem;
   cursor: pointer;
-  
+
   p {
     color: white;
     font-family: poppins;
@@ -208,6 +207,15 @@ h1 {
   display: flex;
   justify-content: center;
   margin-block: 60px;
+}
+
+.main-container3 {
+  h2 {
+    font-family: poppins;
+  }
+  .page1-text-under-h2 p {
+    font-family: mulish;
+  }
 }
 
 //////section2end//section2end//section2end//section2end//section2end//////
