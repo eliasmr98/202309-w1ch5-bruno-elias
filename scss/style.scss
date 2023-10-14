@@ -26,7 +26,7 @@ h1 {
   font-family: mulish;
 }
 
-.main-container {
+.main-container1 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -42,11 +42,15 @@ h2 {
   text-align: center;
 }
 
-.text-under-h2 {
+.text-under1,
+.text-under2 {
   font-family: mulish;
   margin: 2.5rem;
   margin-block-start: 1.5rem;
   text-align: center;
+}
+.p-page2 {
+  font-size: 1rem;
 }
 
 .get-started {
@@ -63,4 +67,10 @@ h2 {
     color: white;
     font-family: poppins;
   }
+}
+.animal1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block-end: 2rem;
 }
