@@ -46,7 +46,7 @@ h1 {
   text-align: center;
 }
 
-.paige1-text-under-h2 {
+.page1-text-under-h2 {
   font-family: mulish;
   margin: 2.5rem;
   margin-block-start: 1.5rem;
@@ -68,7 +68,6 @@ h1 {
   gap: 10px;
   margin-block-end: 3rem;
   cursor: pointer;
-
   p {
     color: white;
     font-family: poppins;
@@ -217,5 +216,138 @@ h1 {
     font-family: mulish;
   }
 }
-
 //////section2end//section2end//section2end//section2end//section2end//////
+///
+///
+///
+///
+///
+///
+/// MENU DESK
+///
+
+$green-color: #009379;
+
+.page1-header-desk {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 50px;
+  margin-block: 20px;
+
+  .logo-menu-page1-desk {
+    display: flex;
+    align-items: center;
+    h1 {
+      font-size: 16px;
+    }
+    cursor: pointer;
+  }
+
+  h1 .page-desk {
+    font-family: mulish;
+  }
+
+  .header-menu-page1-desk {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-menu-page1-desk ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: Poppins;
+    font-size: 14px;
+    gap: 2rem;
+    .li-contact,
+    .li-works {
+      color: $green-color;
+      cursor: pointer;
+    }
+    .li-works {
+      padding-inline: 34px;
+      padding-block: 12px;
+      background-color: #e5f4f2;
+      border-radius: 16px;
+    }
+    .li-start {
+      background-color: $green-color;
+      padding-inline: 34px;
+      padding-block: 12px;
+      border-radius: 16px;
+      color: white;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      cursor: pointer;
+    }
+  }
+}
+
+.page1-desk {
+  display: flex;
+}
+.page1-main-desk {
+  display: flex;
+  flex-direction: column;
+  margin-inline: 50px;
+  margin-block-start: 100px;
+  .page1-text-desk-container {
+    padding-block-end: 2rem;
+    .page1-desk-h2-container {
+      font-family: Poppins;
+      font-size: 28px;
+    }
+    .page1-text-desk-under-h2 {
+      font-family: Mulish;
+      font-size: 16px;
+      p {
+        display: flex;
+      }
+    }
+  }
+  .page1-desk-buttons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-family: Mulish;
+    font-size: 16px;
+    .get-started-desk-menu {
+      background-color: $green-color;
+      padding-inline: 34px;
+      padding-block: 12px;
+      border-radius: 16px;
+      color: white;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      cursor: pointer;
+    }
+    .how-it-works-desk-button {
+      background-color: white;
+      padding-inline: 34px;
+      padding-block: 12px;
+      border-radius: 16px;
+      color: $green-color;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      border: 1px solid $green-color;
+      cursor: pointer;
+    }
+  }
+}
+.page1-desk-phone-image {
+  margin-block-start: 80px;
+  margin-inline-end: 30px;
+}
+
+@media (min-width: 830px) {
+  .menu-mobile {
+    display: none;
+  }
+  .menu-desk {
+    display: initial;
+  }
+}
