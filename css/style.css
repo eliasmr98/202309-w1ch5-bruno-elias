@@ -327,11 +327,19 @@ h1 {
   margin-inline-end: 30px;
 }
 
-@media (min-width: 830px) {
+@media (width < 830px) {
+  .menu-desk-container {
+    display: none;
+  }
+  .menu-mobile {
+    display: initial;
+  }
+}
+@media (width > 830px) {
   .menu-mobile {
     display: none;
   }
-  .menu-desk {
+  .menu-desk-container {
     display: initial;
   }
 }
