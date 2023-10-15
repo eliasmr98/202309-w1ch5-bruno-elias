@@ -46,7 +46,7 @@ h1 {
   text-align: center;
 }
 
-.paige1-text-under-h2 {
+.page1-text-under-h2 {
   font-family: mulish;
   margin: 2.5rem;
   margin-block-start: 1.5rem;
@@ -209,10 +209,131 @@ h1 {
 
 .main-container3 h2 {
   font-family: poppins;
-  font-size: 38px;
 }
 .main-container3 .page1-text-under-h2 p {
   font-family: mulish;
+}
+
+.page1-header-desk {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 50px;
+  margin-block: 20px;
+}
+.page1-header-desk .logo-menu-page1-desk {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.page1-header-desk .logo-menu-page1-desk h1 {
+  font-size: 16px;
+}
+.page1-header-desk h1 .page-desk {
+  font-family: mulish;
+}
+.page1-header-desk .header-menu-page1-desk {
+  display: flex;
+  align-items: center;
+}
+.page1-header-desk .header-menu-page1-desk ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: Poppins;
+  font-size: 14px;
+  gap: 2rem;
+}
+.page1-header-desk .header-menu-page1-desk ul .li-contact,
+.page1-header-desk .header-menu-page1-desk ul .li-works {
+  color: #009379;
+  cursor: pointer;
+}
+.page1-header-desk .header-menu-page1-desk ul .li-works {
+  padding-inline: 34px;
+  padding-block: 12px;
+  background-color: #e5f4f2;
+  border-radius: 16px;
+}
+.page1-header-desk .header-menu-page1-desk ul .li-start {
+  background-color: #009379;
+  padding-inline: 34px;
+  padding-block: 12px;
+  border-radius: 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.page1-desk {
+  display: flex;
+}
+
+.page1-main-desk {
+  display: flex;
+  flex-direction: column;
+  margin-inline: 50px;
+  margin-block-start: 100px;
+}
+.page1-main-desk .page1-text-desk-container {
+  padding-block-end: 2rem;
+}
+.page1-main-desk .page1-text-desk-container .page1-desk-h2-container {
+  font-family: Poppins;
+  font-size: 28px;
+}
+.page1-main-desk .page1-text-desk-container .page1-text-desk-under-h2 {
+  font-family: Mulish;
+  font-size: 16px;
+}
+.page1-main-desk .page1-text-desk-container .page1-text-desk-under-h2 p {
+  display: flex;
+}
+.page1-main-desk .page1-desk-buttons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-family: Mulish;
+  font-size: 16px;
+}
+.page1-main-desk .page1-desk-buttons .get-started-desk-menu {
+  background-color: #009379;
+  padding-inline: 34px;
+  padding-block: 12px;
+  border-radius: 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+.page1-main-desk .page1-desk-buttons .how-it-works-desk-button {
+  background-color: white;
+  padding-inline: 34px;
+  padding-block: 12px;
+  border-radius: 16px;
+  color: #009379;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid #009379;
+  cursor: pointer;
+}
+
+.page1-desk-phone-image {
+  margin-block-start: 80px;
+  margin-inline-end: 30px;
+}
+
+@media (min-width: 830px) {
+  .menu-mobile {
+    display: none;
+  }
+  .menu-desk {
+    display: initial;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
